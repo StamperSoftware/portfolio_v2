@@ -52,3 +52,6 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+/Portfolio/.idea
+client/.editorconfig
+Portfolio/API/appsettings.json

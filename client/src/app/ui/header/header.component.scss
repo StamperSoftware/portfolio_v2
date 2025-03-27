@@ -1,0 +1,13 @@
+.navbar {
+  --bs-navbar-color :var(--primary-color);
+
+  padding:25px 50px 0;
+}
+
+.navbar .nav-brand img {
+  height:50px;
+}
+
+#project-dropdown {
+  cursor:pointer;
+}

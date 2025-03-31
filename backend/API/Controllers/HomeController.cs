@@ -7,6 +7,6 @@ public class HomeController : BaseApiController
     [HttpGet]
     public ActionResult<Task> Test()
     {
-        return Ok(new {connected="test"});
+        return Ok(new {connected=true});
     }
 }

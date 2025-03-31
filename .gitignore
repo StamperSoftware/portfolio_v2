@@ -57,3 +57,6 @@ client/.editorconfig
 Portfolio/API/appsettings.json
 /backend/.idea
 /backend/API/wwwroot
+.gitattributes
+/.idea
+/API/wwwroot

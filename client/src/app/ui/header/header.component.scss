@@ -1,11 +1,12 @@
-.navbar {
-  --bs-navbar-color :var(--primary-color);
-
-  padding:25px 50px 0;
-}
-
-.navbar .nav-brand img {
-  height:50px;
+nav {
+  display : grid;
+  border-bottom:solid 1px;
+  padding:1em 2em;
+  
+  & > .nav-brand img {
+    height:50px;
+  }
+  
 }
 
 #project-dropdown {

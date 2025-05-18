@@ -1,5 +1,9 @@
-<app-header/>
-<div id="content">
-    <router-outlet/>
+<div id="root">
+    <app-header/>
+    <div id="content">
+        <div class="container h-100 pt-3 pb-3">
+            <router-outlet />
+        </div>
+    </div>
+    <app-footer/>
 </div>
-<app-footer/>

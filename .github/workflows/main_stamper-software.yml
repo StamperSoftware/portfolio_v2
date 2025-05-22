@@ -8,7 +8,7 @@ jobs:
     steps:
 
       - name: Build with dotnet
-        run: dotnet build
+        run: dotnet build ./API
 
       - name: dotnet publish
         run: dotnet publish -o "/var/www/portfolio"

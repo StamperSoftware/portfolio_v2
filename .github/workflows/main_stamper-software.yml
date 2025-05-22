@@ -8,4 +8,4 @@ jobs:
     steps:
 
       - name: dotnet publish
-        run: dotnet publish .API -o "/var/www/portfolio"
+        run: ls

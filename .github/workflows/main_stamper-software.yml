@@ -8,4 +8,4 @@ jobs:
     steps:
 
       - name: dotnet publish
-        run: ls
+        run: ls | echo

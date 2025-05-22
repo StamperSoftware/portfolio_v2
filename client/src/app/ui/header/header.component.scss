@@ -1,14 +1,15 @@
 nav {
   display : grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap:5em;
   border-bottom:solid 1px;
   padding:1em 2em;
-  
-  & > .nav-brand img {
-    height:50px;
-  }
-  
 }
 
 #project-dropdown {
   cursor:pointer;
+}
+
+#resume-container {
+  justify-self: end;
 }

@@ -58,3 +58,4 @@ Portfolio/API/appsettings.json
 /backend/.idea
 .gitattributes
 /.idea
+/API/wwwroot

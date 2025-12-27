@@ -1,12 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Core.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
 
-public class HomeController : BaseApiController
+public class HomeController(ITrackerService trackerService) : BaseApiController
 {
     [HttpGet]
-    public ActionResult<Task> Test()
+    public async Task<ActionResult> Test()
     {
-        return Ok(new {connected="test"});
+        var tracker = await trackerService.AddTracker();
+        return Ok(new {count = tracker.Count});
     }
 }
